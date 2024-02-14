@@ -1,0 +1,253 @@
+
+.columna1 {
+
+    background-color: #C9FBF7;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+.columna2{
+    background-color: #C9FBF7;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe{
+    
+
+    width: 560px;
+    height: 315px;
+}
+
+.textoref {
+    font-size: 30px;
+    color: blue;
+}
+
+.edicionImagen {
+    width: 190px;
+    height: 150px;
+}
+
+table {
+    margin:auto;
+    border-collapse: collapse;
+}
+
+.tabla2 {
+
+    width: 1250px;
+    height: 200px;
+    background-color: #C9FBF7;;
+}
+
+body {
+   
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.titulos {
+    color: white;
+
+}
+
+.ajustesimg1{
+    margin-top: -90px;
+    width: 100px;
+}
+
+.colum2 {
+    background-color: yellow;
+    color:black;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+}
+
+.colum3 {
+    background-color: white;
+    color: blue;
+    text-align: center;
+    height: 50px;
+}
+
+.colum4 {
+    height: 60px;
+    width: 1525px;
+    text-align: center;
+    background-color: #7AF127;
+    color: black;
+}
+
+
+/* ACA EMPIEZA LO DEL LOGIN FLOTANTE */
+.contactBody{
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    height:700px;
+
+}
+.title{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 42px;
+    color: rgb(252, 252, 252);
+    margin-top: -90px;
+  }
+
+  #title-Tag-Line{
+      font-size: 20px;
+  }
+/* This will center the form */
+  .wrapper {
+    width: 80%;
+    height: 50%;
+    margin: 5% auto 0 auto; 
+  }
+
+/* form animation starts */
+  .form {
+    background: #EBEBEB;
+    text-align: center; 
+    box-shadow: 0px 0px 20px 5px #AAA; 
+    border-radius: 10px;  
+    width: 45%; 
+    height: 560px;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px;  
+    animation: bounce 1.5s infinite;
+    margin-top: 10px;
+    
+  }
+
+.name { 
+    background-color: #DF1B76;
+    border-bottom: 5px solid #B2175F;
+    color: white;
+    width:300px;
+    font-size: 20px;
+  }
+
+  /* CONFIGURACION GENERAL DEL PLACEHOLDER */
+  ::-webkit-input-placeholder{
+      color: white;
+      font-size: 20px;
+  }
+  .name:hover{
+    background-color: #DF1B76;
+    border-bottom: 5px solid #B2175F;
+    height:30px;
+    width:400px;
+  }
+
+  .email {
+    background-color: #7239C1;  
+    border-bottom: 5px solid #502789;
+    height:50px;
+    width:300px;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .email:hover{
+    background-color: #7239C1;  
+    border-bottom: 5px solid #502789;
+    height:30px;
+    width:380px;
+   
+  }
+
+  .submit{
+    border-radius:5px;
+    padding:10px;
+    background-color: #2DD7BB;  
+    border: none;
+    border-bottom: 5px solid #CB64B2; 
+    transform: translateY(-120px); 
+
+  }
+
+  .submit:hover{
+    border-bottom: 5px solid #CB64B2;  
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  }
+
+  .entry{
+    display: block;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s ease 0s;
+    box-shadow: 0px 0px 25px 2px #AAA;  
+  }
+
+  /* Shadow to make it look like form is floating  */
+  .shadow{
+    box-shadow: 0px 0px 60px 5px #AAA;
+    opacity: 0.5;
+    border-radius: 100px;
+    width: 50%; 
+    margin: 50px auto 0 auto;
+    padding: 0 20px;  
+    animation: shadow 1.5s infinite;
+  }
+
+
+  .botonxd  {
+    border-radius:10px;
+    padding:10px;
+    color: white;
+    background-color: #EE78D1;  
+    border: none;
+  }
+
+  .botonxd:hover{
+    background-color: #EE78D1;  
+    
+  }
+
+  .lista{
+    background-color: white;
+    height: 40px;
+    border-radius: 5px;
+    width: 150px;
+    
+  }
+
+  option{
+    font-size:18px;
+   }
+
+  @keyframes bounce{
+    0%{
+      
+    }
+    50%{
+      transform: translate(0, 8px);
+    }
+
+  }
+  @keyframes shadow{
+    0%{
+      
+    }
+    50%{
+      opacity: 0.8;
+      width: 50%;
+    }
+  }
+
+/* background filter: blur(20px) */
