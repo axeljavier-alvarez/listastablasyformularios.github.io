@@ -1,5 +1,5 @@
 ### Features
-Project done in INTECAP part of the full stack development course, the proyect is about html and css aplication about:
+Project done in INTECAP part of the full stack development course, the project is about:
 - input of links and videos.
 - make tables and enter information into tables
 - combine the cells of the tables.
